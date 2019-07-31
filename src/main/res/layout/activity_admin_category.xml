@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminCategoryActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slogan_category"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add new product"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:textColor="@color/orange"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_category_layout_1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/slogan_category">
+
+        <ImageView
+            android:id="@+id/efo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/efo" />
+        <ImageView
+            android:id="@+id/fufu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fufu" />
+        <ImageView
+            android:id="@+id/rice"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rice" />
+        <ImageView
+            android:id="@+id/abach"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/abacha" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_category_layout_2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linear_category_layout_1">
+
+        <ImageView
+            android:id="@+id/women"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/women" />
+        <ImageView
+            android:id="@+id/men"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/men" />
+        <ImageView
+            android:id="@+id/child"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/child" />
+        <ImageView
+            android:id="@+id/shirt"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/shirt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_category_layout_3"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linear_category_layout_2">
+
+        <ImageView
+            android:id="@+id/men_shoe"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/men_sheo" />
+        <ImageView
+            android:id="@+id/bags"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bags" />
+        <ImageView
+            android:id="@+id/eyeglass"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/eyeglass" />
+        <ImageView
+            android:id="@+id/cap"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cap" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_category_layout_4"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linear_category_layout_3">
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/phone" />
+        <ImageView
+            android:id="@+id/headset"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/headset" />
+        <ImageView
+            android:id="@+id/laptop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/laptop" />
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/watch" />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/check_order_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/maintain_btn"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="Maintain Products"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/check_order_btn"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="Check new orders"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/admin_logout_btn"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="Logout"
+        android:textSize="18sp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
