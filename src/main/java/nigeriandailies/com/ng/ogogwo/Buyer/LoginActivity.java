@@ -1,4 +1,4 @@
-package nigeriandailies.com.ng.ogogwo;
+package nigeriandailies.com.ng.ogogwo.Buyer;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -21,6 +21,8 @@ import com.rey.material.widget.CheckBox;
 
 import io.paperdb.Paper;
 import model.Users;
+import nigeriandailies.com.ng.ogogwo.Prevalent;
+import nigeriandailies.com.ng.ogogwo.R;
 import nigeriandailies.com.ng.ogogwo.admin.AdminCategoryActivity;
 
 public class LoginActivity extends AppCompatActivity {
@@ -30,6 +32,8 @@ public class LoginActivity extends AppCompatActivity {
     private Button loginBtn;
     private ProgressDialog loadingBar;
     private String parentDbName = "Users";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

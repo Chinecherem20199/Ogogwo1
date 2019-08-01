@@ -1,4 +1,4 @@
-package nigeriandailies.com.ng.ogogwo;
+package nigeriandailies.com.ng.ogogwo.Buyer;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -31,7 +31,8 @@ import com.theartofdev.edmodo.cropper.CropImage;
 import java.util.HashMap;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import model.Users;
+import nigeriandailies.com.ng.ogogwo.Prevalent;
+import nigeriandailies.com.ng.ogogwo.R;
 
 public class SettingsActivity extends AppCompatActivity  {
 

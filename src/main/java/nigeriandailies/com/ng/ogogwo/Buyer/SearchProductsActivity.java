@@ -1,4 +1,4 @@
-package nigeriandailies.com.ng.ogogwo;
+package nigeriandailies.com.ng.ogogwo.Buyer;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -20,6 +20,7 @@ import com.squareup.picasso.Picasso;
 
 import ViewHolder.ProductViewHolder;
 import model.Products;
+import nigeriandailies.com.ng.ogogwo.R;
 
 public class SearchProductsActivity extends AppCompatActivity {
 

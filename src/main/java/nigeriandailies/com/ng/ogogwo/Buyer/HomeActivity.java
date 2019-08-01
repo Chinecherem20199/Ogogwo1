@@ -1,4 +1,4 @@
-package nigeriandailies.com.ng.ogogwo;
+package nigeriandailies.com.ng.ogogwo.Buyer;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,6 +30,8 @@ import ViewHolder.ProductViewHolder;
 import de.hdodenhof.circleimageview.CircleImageView;
 import io.paperdb.Paper;
 import model.Products;
+import nigeriandailies.com.ng.ogogwo.Prevalent;
+import nigeriandailies.com.ng.ogogwo.R;
 import nigeriandailies.com.ng.ogogwo.admin.AdminMaintainProductsActivity;
 
 public class HomeActivity extends AppCompatActivity
