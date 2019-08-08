@@ -23,7 +23,7 @@ import io.paperdb.Paper;
 import model.Users;
 import nigeriandailies.com.ng.ogogwo.Prevalent;
 import nigeriandailies.com.ng.ogogwo.R;
-import nigeriandailies.com.ng.ogogwo.admin.AdminCategoryActivity;
+import nigeriandailies.com.ng.ogogwo.admin.SellerProductCategoryActivity;
 
 public class LoginActivity extends AppCompatActivity {
     private EditText loginPhoneNumber, loginPassword;
@@ -129,7 +129,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(LoginActivity.this, "Logged in successfully...", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
 
-                                Intent intent = new Intent(LoginActivity.this, AdminCategoryActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, SellerProductCategoryActivity.class);
                            startActivity(intent);
 
                             }else {

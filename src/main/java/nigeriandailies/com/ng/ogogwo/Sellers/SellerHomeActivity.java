@@ -12,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import nigeriandailies.com.ng.ogogwo.Buyer.MainActivity;
 import nigeriandailies.com.ng.ogogwo.R;
+import nigeriandailies.com.ng.ogogwo.admin.SellerProductCategoryActivity;
 
 public class SellerHomeActivity extends AppCompatActivity {
     private TextView mTextMessage;
@@ -26,7 +27,8 @@ public class SellerHomeActivity extends AppCompatActivity {
                     mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_add:
-                    mTextMessage.setText(R.string.title_dashboard);
+                    Intent intentCate = new Intent(SellerHomeActivity.this, SellerProductCategoryActivity.class);
+                    startActivity(intentCate);
                     return true;
                 case R.id.navigation_logout:
                     final FirebaseAuth mAuth;
@@ -34,9 +36,9 @@ public class SellerHomeActivity extends AppCompatActivity {
                     mAuth.signOut();
 
 
-                    Intent intent = new Intent(SellerHomeActivity.this, MainActivity.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                    startActivity(intent);
+                    Intent intentMain = new Intent(SellerHomeActivity.this, MainActivity.class);
+                    intentMain.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intentMain);
                     finish();
                     return true;
             }

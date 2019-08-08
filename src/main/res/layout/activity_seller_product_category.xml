@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin.AdminCategoryActivity">
+    tools:context=".admin.SellerProductCategoryActivity">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/linear_category_layout_1"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal"
         android:gravity="center"
@@ -151,48 +151,48 @@
 
 
     </LinearLayout>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="42dp"
-        android:layout_above="@+id/check_order_btn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/maintain_btn"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/white"
-        android:text="Maintain Products"
-        android:textSize="18sp"
-        android:textAllCaps="false"/>
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_above="@+id/check_order_btn"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:id="@+id/maintain_btn"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginRight="80dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="Maintain Products"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAllCaps="false"/>-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="42dp"
-        android:layout_above="@+id/admin_logout_btn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/check_order_btn"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/white"
-        android:text="Check new orders"
-        android:textSize="18sp"
-        android:textAllCaps="false"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:id="@+id/admin_logout_btn"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@color/white"
-        android:text="Logout"
-        android:textSize="18sp"
-        android:textAllCaps="false"/>
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_above="@+id/admin_logout_btn"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:id="@+id/check_order_btn"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginRight="80dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="Check new orders"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAllCaps="false"/>-->
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginRight="80dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:id="@+id/admin_logout_btn"-->
+        <!--android:background="@color/colorPrimaryDark"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:text="Logout"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAllCaps="false"/>-->
 
 </RelativeLayout>
