@@ -116,40 +116,7 @@ public class SellerRegistrationActivity extends AppCompatActivity {
 
                             }
                         }
-//                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-//                        @Override
-//                        public void onComplete(@NonNull Task<AuthResult> task) {
-//                            if (task.isSuccessful())
-//                            {
-//                               final DatabaseReference rootRef;
-//                                       rootRef =  FirebaseDatabase.getInstance().getReference();
-//                                       String sid = Objects.requireNonNull(mAuth.getCurrentUser()).getUid();
-//                                       HashMap<String, Object> sellerMap = new HashMap<>();
-//                                       sellerMap.put("sid", sid);
-//                                       sellerMap.put("name", name);
-//                                       sellerMap.put("phone", phone);
-//                                       sellerMap.put("email", email);
-//                                       sellerMap.put("password", password);
-//                                       sellerMap.put("address", address);
-//
-//                                       rootRef.child("Sellers").child(sid).updateChildren(sellerMap)
-//                                               .addOnCompleteListener(new OnCompleteListener<Void>() {
-//                                                   @Override
-//                                                   public void onComplete(@NonNull Task<Void> task) {
-//
-//                                                       loadingBar.dismiss();
-//                                                       Toast.makeText(SellerRegistrationActivity.this, "You have registered successfully.",
-//                                                               Toast.LENGTH_SHORT).show();
-//
-//                                                       Intent intent = new Intent(SellerRegistrationActivity.this, SellerHomeActivity.class);
-//                                                       intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//                                                       startActivity(intent);
-//                                                       finish();
-//
-//                                                   }
-//                                               });
-//
-//                            }
+
 
                         });
 
