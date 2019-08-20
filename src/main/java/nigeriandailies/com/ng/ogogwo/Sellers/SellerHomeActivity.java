@@ -12,7 +12,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import nigeriandailies.com.ng.ogogwo.Buyer.MainActivity;
 import nigeriandailies.com.ng.ogogwo.R;
-import nigeriandailies.com.ng.ogogwo.admin.SellerProductCategoryActivity;
 
 public class SellerHomeActivity extends AppCompatActivity {
     private TextView mTextMessage;

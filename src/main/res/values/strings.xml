@@ -41,4 +41,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="logout_ad">Logout</string>
+    <string name="check_new_orders_ad">Check new orders</string>
+    <string name="maintain_products_ad">Maintain Products</string>
+    <string name="welcome_dear_admin_ad">Welcome Dear Admin</string>
+    <string name="add_new_product_sl">Add new product</string>
+    <string name="check_and_approve_new_products_ad">Check and Approve New Products</string>
+    <string name="new_orders_ne">New Orders</string>
 </resources>

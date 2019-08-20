@@ -4,29 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin.AdminNewOrderActivity">
+    tools:context=".admin.AdminCheckNewProductsActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:background="@color/colorPrimaryDark"
-        android:id="@+id/relative_admin_new_order"
-        tools:ignore="MissingConstraints">
+        android:id="@+id/relative_admin_new_product">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/new_orders_ne"
+            android:text=" Approve New Products"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:textSize="23sp"/>
-
+            android:textStyle="bold"
+            android:textSize="20sp"/>
     </RelativeLayout>
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:id="@+id/admin_order_list"
         android:layout_height="match_parent"
-        android:layout_below="@+id/relative_admin_new_order">
+        android:id="@+id/admin_product_checklist"
+        android:layout_below="@+id/relative_admin_new_product">
 
     </android.support.v7.widget.RecyclerView>
 
